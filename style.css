@@ -1,0 +1,51 @@
+.gradient-background {
+  background: linear-gradient(300deg, gray, white, rgb(8, 8, 146));
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+body {
+  background: linear-gradient(300deg, gray, white, blue);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.Extra-section {
+  text-align: center;
+  margin-top: 150px;
+  font-family: "Times New Roman", Times, serif;
+  height: 50vh;
+}
+.my-self {
+  border-radius: 10px;
+  margin-left: 25%;
+}
+.container {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: larger;
+}
+.hire-me {
+  font-family: "Times New Roman", Times, serif;
+}
+.my-projects {
+  font-family: "Times New Roman", Times, serif;
+}
+.my-lang {
+  border-radius: 50%;
+}
+.another-row {
+  margin-top: 50px;
+}
+.first-project {
+  font-size: 2rem;
+}
