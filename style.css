@@ -3,6 +3,37 @@
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
+.portfolio {
+  margin-left: 5px;
+}
+.portFolio-nav-bar {
+  height: 30vh;
+}
+.intro {
+  height: 70vh;
+}
+.my-pic {
+  height: 150px;
+  width: 150;
+  border-radius: 50%;
+}
+
+.bigger-name {
+  font-size: 4rem;
+}
+.text-edit {
+  font-family: "Times New Roman", Times, serif;
+}
+.column {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.project-div {
+  height: 100vh;
+}
+.features {
+  margin-top: 20px;
+}
 
 @keyframes gradient-animation {
   0% {
