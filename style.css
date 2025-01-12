@@ -3,6 +3,7 @@
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
+
 .portfolio {
   margin-left: 5px;
 }
@@ -34,7 +35,6 @@
 .features {
   margin-top: 20px;
 }
-
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -45,4 +45,11 @@
   100% {
     background-position: 0% 50%;
   }
+}
+
+.animated-box {
+  transition: transform 0.3s ease 0s;
+}
+.animated-box:hover {
+  transform: translateY(-20px);
 }
