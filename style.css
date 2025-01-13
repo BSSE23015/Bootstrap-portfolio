@@ -1,5 +1,5 @@
 .gradient-background {
-  background: linear-gradient(300deg, gray, white, rgb(8, 8, 146));
+  background: linear-gradient(300deg, rgb(108, 91, 235), white, #1f1f98);
   background-size: 180% 180%;
   animation: gradient-animation 18s ease infinite;
 }
@@ -19,11 +19,11 @@
   border-radius: 50%;
 }
 
-.bigger-name {
-  font-size: 4rem;
-}
 .text-edit {
   font-family: "Times New Roman", Times, serif;
+}
+.bigger-name {
+  font-size: 4rem;
 }
 .column {
   margin-top: 20px;
@@ -35,6 +35,7 @@
 .features {
   margin-top: 20px;
 }
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -46,7 +47,23 @@
     background-position: 0% 50%;
   }
 }
-
+@keyframes slideUpwards {
+  from {
+    transform: translateY(50px);
+  }
+  to {
+    transform: translateY(0px);
+  }
+}
+.moving-header {
+  animation-name: slideUpwards;
+  animation-duration: 0.75s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
 .animated-box {
   transition: transform 0.3s ease 0s;
 }
