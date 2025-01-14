@@ -35,7 +35,10 @@
 .features {
   margin-top: 20px;
 }
-
+.button-changer-color {
+  color: black;
+  font-size: 18px;
+}
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
